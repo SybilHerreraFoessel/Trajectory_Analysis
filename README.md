@@ -9,8 +9,7 @@ File: 23_12_06_SublateralOrgan_Monocle_Spruce_SHF_Part1.Rmd Part1 includes codes
 1) Pre-trajectory analysis: Subsetting using STUtility, cluster analysis with Seurat (including SCTransform, batch correcting with Harmony, dimensionality reductions with PCA and UMAP, cluster analysis (Louvain).
 
 2) Trajectory Analysis with Monocle 3:
-Integration of cluster and UMAP cell embeddings from Seurat, construction of trajectory analysis, order cells, 
-save pseudotime values to Seurat Object, finding significant genes along trajectory (graph_test with Morans I Statistic).
+Convertion of Seurat object to cds Monocle 3 object, integration of cluster and UMAP cell embeddings from Seurat, construction of trajectory analysis, order cells based on initial root, saving pseudotime values to Seurat Object, finding significant genes along trajectory (graph_test with Morans I Statistic).
 
 4) Visualization of cluster and tissue on brightfield images using STUtility/Seurat.
 
